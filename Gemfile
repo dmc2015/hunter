@@ -10,6 +10,8 @@ ruby '2.3.6'
 
 #rspec for testing
 gem 'rspec'
+#rspec req for CircleCI
+gem 'rspec_junit_formatter'
 #env variables
 gem 'dotenv'
 #background jobs
