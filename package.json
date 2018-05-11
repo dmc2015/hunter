@@ -1,5 +1,10 @@
 {
   "name": "hunter",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dmc2015/hunter.git",
+  "author": "Don McLamb <mclamb.donald@gmail.com>",
+  "license": "MIT"
 }
