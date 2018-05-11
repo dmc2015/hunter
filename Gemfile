@@ -7,6 +7,9 @@ end
 
 ruby '2.3.6'
 
+
+#rspec for testing
+gem 'rspec'
 #env variables
 gem 'dotenv'
 #background jobs
