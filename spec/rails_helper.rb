@@ -1,6 +1,11 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'simplecov'
+require 'rspec/simplecov'
+
+SimpleCov.minimum_coverage 95
 SimpleCov.start
+
+RSpec::SimpleCov.start
 require 'rubygems'
 require 'vcr'
 require 'spec_helper'

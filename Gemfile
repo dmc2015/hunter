@@ -39,7 +39,6 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'simplecov'
 
 group :development, :test do
   #rspec for testing
@@ -70,6 +69,9 @@ group :development, :test do
   gem 'ffaker'
   #for break points and debugging
   gem 'pry-byebug'
+  #code coverage
+  gem 'rspec-simplecov'
+  gem 'simplecov'
 end
 
 group :development do
