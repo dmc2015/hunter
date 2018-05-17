@@ -13,8 +13,8 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-# require 'simplecov'
-# SimpleCov.start
+require 'simplecov'
+SimpleCov.start
 require 'webmock/rspec'
 require 'vcr'
 require 'coderay'
