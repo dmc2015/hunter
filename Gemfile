@@ -62,6 +62,8 @@ group :development, :test do
   gem 'simplecov'
   #run tests on file save
   gem 'guard-rspec'
+  #live reload
+  gem 'guard-livereload'
   #fake data
   gem 'ffaker'
   #for break points and debugging
