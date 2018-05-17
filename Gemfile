@@ -8,10 +8,7 @@ end
 ruby '2.3.7'
 
 
-#rspec for testing
-gem 'rspec'
-#rspec req for CircleCI
-gem 'rspec_junit_formatter'
+
 #env variables
 gem 'dotenv'
 #background jobs
@@ -44,6 +41,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  #rspec for testing
+  gem 'rspec'
+  #rspec req for CircleCI
+  gem 'rspec_junit_formatter'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
