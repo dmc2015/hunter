@@ -39,6 +39,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'simplecov'
 
 group :development, :test do
   #rspec for testing
