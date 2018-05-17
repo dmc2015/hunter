@@ -2,10 +2,10 @@
 # require 'pry-byebug'
 # if ENV['RAILS_ENV'] == 'test' || ENV['RAILS_ENV'] == 'development'
 
-  # require 'simplecov'
+  require 'simplecov'
   # binding.pry
-  # SimpleCov.start
-  # puts "required simplecov"
+  SimpleCov.start
+  puts "required simplecov"
 # end
 
 begin
