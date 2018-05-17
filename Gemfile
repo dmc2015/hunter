@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.3.6'
+ruby '2.3.7'
 
 
 #rspec for testing
@@ -55,7 +55,7 @@ group :development, :test do
   #for unit tests
   gem 'rspec-rails'
   #for factories
-  gem 'facotry_bot_rails'
+  gem 'factory_bot_rails'
   #test highlighting
   gem 'coderay'
   #gives coverage of code
