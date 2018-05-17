@@ -49,6 +49,23 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  #for testing apis
+  gem 'vcr'
+  gem 'webmock'
+  #for unit tests
+  gem 'rspec-rails'
+  #for factories
+  gem 'facotry_bot_rails'
+  #test highlighting
+  gem 'coderay'
+  #gives coverage of code
+  gem 'simplecov'
+  #run tests on file save
+  gem 'guard-rspec'
+  #fake data
+  gem 'ffaker'
+  #for break points and debugging
+  gem 'pry-byebug'
 end
 
 group :development do
