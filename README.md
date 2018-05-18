@@ -5,9 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version => 2.3.7
 
-* System dependencies
+* System dependencies => See Gemfile
 
 * Configuration
 
@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+*goals
+
+*crud functionality for data query Threatcrowd sources ['email', 'domain', 'ip', 'antivirus', 'file']

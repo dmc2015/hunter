@@ -8,7 +8,10 @@ end
 ruby '2.3.7'
 
 
-
+#scheduler
+gem 'whenever', require: false
+#http client
+gem "typhoeus"
 #env variables
 gem 'dotenv'
 #background jobs
